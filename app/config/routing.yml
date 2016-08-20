@@ -1,0 +1,3 @@
+ht_platform:
+    resource: "@HTPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform
