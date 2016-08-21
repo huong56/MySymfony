@@ -36,6 +36,7 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    #webmaster:        "%app_webmaster%"
 
 # Doctrine Configuration
 doctrine:

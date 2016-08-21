@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{#<!DOCTYPE html>
 
 <html>
 
@@ -22,5 +22,13 @@
 
   </body>
 
-</html>
+</html>#}
+
+{% extends "HTPlatformBundle::layout.html.twig" %}
+
+{% block title %}{{ parent() }} - Index{% endblock %}
+
+{% block body %}
+  Notre plateforme est un peu vide pour le moment, mais cela viendra !
+{% endblock %}
 
